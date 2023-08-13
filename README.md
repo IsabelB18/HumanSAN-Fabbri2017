@@ -6,9 +6,11 @@
 
 <p>To use this model, you'll need:</p>
 <ul>
-  <li>Python (version X.X or later)</li>
+  <li>Python (version 2.6 or later)</li>
   <li>NumPy library</li>
   <li>JSON library</li>
+  <li>SciPy library</li>
+  <li>Matplotlib library</li>
 </ul>
 
 ## Installation 
@@ -16,14 +18,13 @@
 <ol>
   <li>Clone this repository to your local machine:</li>
 </ol>
-<pre><code>git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+<pre><code>git clone https://github.com/CellularSyntax/HumanSAN-Fabbri2017.git
+cd HumanSAN-Fabbri2017
 </code></pre>
 <ol start="2">
   <li>Install the required libraries:</li>
 </ol>
-<pre><code>pip install numpy
-</code></pre>
+<pre><code>$ pip install numpy scipy matplotlib</code></pre>
 
 ## How to Use 
 
