@@ -12,7 +12,7 @@
 
 <p>Here, <strong><em>dV/dt</em></strong> is the rate of change of the membrane potential with respect to time, <strong><em>C</em></strong> is the membrane capacitance, and the terms inside the parentheses represent the various ionic currents that play a vital role in the depolarization and repolarization phases of the action potential.</p>
 
-<p>This equation elegantly encapsulates the interactions and dynamics of the SAN cell membrane, highlighting the role of each ion channel in generating the characteristic rhythmic electrical activity of the SAN</p>
+<p>This equation elegantly encapsulates the interactions and dynamics of the SAN cell membrane, highlighting the role of each ion channel in generating the characteristic rhythmic electrical activity of the SAN.</p>
 
 
 ## Prerequisites 
