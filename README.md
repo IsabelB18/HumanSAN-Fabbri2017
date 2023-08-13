@@ -18,8 +18,8 @@
 <ol>
   <li>Clone this repository to your local machine:</li>
 </ol>
-<pre><code>git clone https://github.com/CellularSyntax/HumanSAN-Fabbri2017.git
-cd HumanSAN-Fabbri2017
+<pre><code>$ git clone https://github.com/CellularSyntax/HumanSAN-Fabbri2017.git
+$ cd HumanSAN-Fabbri2017
 </code></pre>
 <ol start="2">
   <li>Install the required libraries:</li>
