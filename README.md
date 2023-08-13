@@ -34,6 +34,45 @@ cd HumanSAN-Fabbri2017
   <li>The main implementation of the model is in the <code>model/SinoatrialNode.py</code> file. The class <code>SinoatrialNode</code> contains methods to initialize the model, update its conditions, calculate constants, and more.</li>
 </ol>
 
+### Minimal Example
+
+To get started with the Sinoatrial Node Model, you can use the following minimal example to simulate the model and visualize the results using Python:
+
+```python
+from model.SinoAtrialNode import SinoAtrialNode
+import numpy as np
+from scipy.integrate import solve_ivp
+from matplotlib import pyplot as plt
+from helper_functions import parse_model_parameters
+
+# Load the JSON file containing model parameters
+constants, initial_conditions, constant_desc, init_cond_desc = parse_model_parameters("../config/config.json")
+
+# Set the simulation duration and create the SinoAtrialNode object
+sim_dur = 2
+san = SinoAtrialNode(constant_descriptions=constant_desc,
+                     state_descriptions=init_cond_desc,
+                     constants=constants,
+                     initial_conditions=initial_conditions)
+
+# Print the model information (initial conditions and model parameters)
+san.info()
+
+# Solve the model using solve_ivp
+sol = solve_ivp(san.calculate_derivatives, [0, sim_dur], list(san.y), method='BDF', rtol=1e-6,
+                t_eval=np.arange(0, sim_dur, 1e-4), vectorized=False)
+
+# Visualize the results
+plt.figure(figsize=(10, 6))
+plt.plot(sol.t, sol.y[0], label="Transmembrane Potential")
+plt.xlabel("Time (ms)")
+plt.ylabel("Voltage (mV)")
+plt.title("Sinoatrial Node Model Simulation")
+plt.legend()
+plt.grid()
+plt.show()
+
+
 ## Model Parameters and References 
 
 <p>The values for constants and initial conditions in this JSON structure were obtained from the CellML model available <a href="https://models.cellml.org/e/568/HumanSAN_Fabbri_Fantini_Wilders_Severi_2017.cellml/view"><b>here</b></a>. These values were derived from the original publication:</p>
