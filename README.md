@@ -6,7 +6,7 @@
 
 <p>The membrane potential equation for the human SAN cell model is given by:</p>
 
-<p><img src="https://raw.githubusercontent.com/CellularSyntax/cellularsyntax.github.io/main/fabbri_san_membrane_voltage_equation.png" style=""></p>
+<p><img src="https://raw.githubusercontent.com/CellularSyntax/cellularsyntax.github.io/main/fabbri_san_membrane_voltage_equation.PNG" style=""></p>
 
 <p>The currents in this equation, such as the <strong><em>I<sub>f</sub></em></strong> (Funny current), <strong><em>I<sub>CaL</sub></em></strong> (L-type calcium current), <strong><em>I<sub>CaT</sub></em></strong> (T-type calcium current), <strong><em>I<sub>Kr</sub></em></strong> (Rapid delayed rectifier potassium current), <strong><em>I<sub>Ks</sub></em></strong> (Slow delayed rectifier potassium current), <strong><em>I<sub>K,ACh</sub></em></strong> (Potassium current modulated by acetylcholine), <strong><em>I<sub>to</sub></em></strong> (Transient outward potassium current), <strong><em>I<sub>Na</sub></em></strong> (Sodium current), <strong><em>I<sub>NaK</sub></em></strong> (Sodium-potassium pump current), <strong><em>I<sub>NaCa</sub></em></strong> (Sodium-calcium exchanger current), and <strong><em>I<sub>Kur</sub></em></strong> (Ultra-rapid delayed rectifier potassium current), collectively contribute to the intricate electrical behavior of the sinoatrial node. They are crucial for its proper functioning in generating and conducting cardiac impulses.</p>
 
