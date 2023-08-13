@@ -80,12 +80,9 @@ plt.show()
 <p>This code will produce the following output. </p>
 <img src="https://raw.githubusercontent.com/CellularSyntax/cellularsyntax.github.io/main/simulation_plot.png" style="">
 
-## Model Parameters and References 
+## Model Parameters 
 
-<p>The values for constants and initial conditions in this JSON structure were obtained from the CellML model available <a href="https://models.cellml.org/e/568/HumanSAN_Fabbri_Fantini_Wilders_Severi_2017.cellml/view"><b>here</b></a>. These values were derived from the original publication:</p>
-<ol>
-  <li id="ref1">Fabbri, Alan, et al. "Computational analysis of the human sinus node action potential: model development and effects of mutations." <i>The Journal of Physiology</i> 595.7 (2017): 2365-2396. (DOI: <a href="https://doi.org/10.1113/JP273259">10.1113/JP273259</a>)</li>
-</ol>
+<p>The values for constants and initial conditions in this JSON structure were obtained from the CellML model available <a href="https://models.cellml.org/e/568/HumanSAN_Fabbri_Fantini_Wilders_Severi_2017.cellml/view"><b>here</b></a>. These values were derived from the original publication of Fabbri et al. [<a href="#ref1"><strong>1</strong></a>].
 
 ## Blog Article 
 
