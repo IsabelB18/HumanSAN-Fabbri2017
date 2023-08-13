@@ -1,6 +1,6 @@
-# Getting Started with the Sinoatrial Node Model 
+# Getting Started with the Human Sinoatrial Node Model 
 
-<p>Welcome to the Sinoatrial Node Model repository! This project implements the mathematical model of the human sinus node action potential based on the work by Fabbri et al. [<a href="#ref1"><strong>1</strong></a>]. This guide will help you get started with using the model.</p>
+<p>Welcome to the Human Sinoatrial Node Model repository! This project implements the mathematical model of the human sinus node action potential based on the work by Fabbri et al. [<a href="#ref1"><strong>1</strong></a>]. This guide will help you get started with using the model.</p>
 
 ## Prerequisites 
 
