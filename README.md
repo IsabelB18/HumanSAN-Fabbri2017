@@ -4,7 +4,7 @@
 
 ## Recapitulating the Model
 
-<p>The membrane potential equation for the human SAN cell model is given by:</p>
+<p>The membrane potential equation for the human sinoatrial node cell model is given by:</p>
 
 <p><img src="https://raw.githubusercontent.com/CellularSyntax/cellularsyntax.github.io/main/fabbri_san_membrane_voltage_equation.PNG" style="width:90%"></p>
 
