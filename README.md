@@ -55,9 +55,6 @@ san = SinoAtrialNode(constant_descriptions=constant_desc,
                      constants=constants,
                      initial_conditions=initial_conditions)
 
-# Print the model information (initial conditions and model parameters)
-san.info()
-
 # Solve the model using solve_ivp
 sol = solve_ivp(san.calculate_derivatives, [0, sim_dur], list(san.y), method='BDF', rtol=1e-6,
                 t_eval=np.arange(0, sim_dur, 1e-4), vectorized=False)
@@ -68,10 +65,8 @@ plt.plot(sol.t, sol.y[0], label="Transmembrane Potential")
 plt.xlabel("Time (ms)")
 plt.ylabel("Voltage (mV)")
 plt.title("Sinoatrial Node Model Simulation")
-plt.legend()
-plt.grid()
 plt.show()
-
+```
 
 ## Model Parameters and References 
 
