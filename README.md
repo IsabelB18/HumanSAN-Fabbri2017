@@ -77,7 +77,6 @@ plt.ylabel("Voltage (mV)")
 plt.title("Sinoatrial Node Model Simulation")
 plt.show()
 ```
-<p>This code will produce the following output. </p>
 <img src="https://raw.githubusercontent.com/CellularSyntax/cellularsyntax.github.io/main/simulation_plot.png" style="">
 
 ## Model Parameters 
