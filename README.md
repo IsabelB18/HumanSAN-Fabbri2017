@@ -81,7 +81,7 @@ plt.show()
 
 ## Model Parameters 
 
-<p>The values for constants and initial conditions in this JSON structure were obtained from the CellML model available <a href="https://models.cellml.org/e/568/HumanSAN_Fabbri_Fantini_Wilders_Severi_2017.cellml/view"><b>here</b></a>. These values were derived from the original publication of Fabbri et al. [<a href="#ref1"><strong>1</strong></a>].
+<p>The values for constants and initial conditions in the JSON file of that project were obtained from the CellML model available <a href="https://models.cellml.org/e/568/HumanSAN_Fabbri_Fantini_Wilders_Severi_2017.cellml/view"><b>here</b></a>. These values were derived from the original publication of Fabbri et al. [<a href="#ref1"><strong>1</strong></a>].
 
 ## Blog Article 
 
